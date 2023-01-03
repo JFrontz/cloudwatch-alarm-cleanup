@@ -4,6 +4,7 @@ ThisBuild / homepage := Option(url("https://github.com/JFrontz/cloudwatch-alert-
 ThisBuild / licenses += ("MIT", url("http://opensource.org/licenses/MIT"))
 ThisBuild / developers := List(
     Developer(
+<<<<<<< HEAD
       "bpholt",
       "Brian Holt",
       "bholt+github@jfrontz.com",
@@ -11,6 +12,7 @@ ThisBuild / developers := List(
     ),
   )
 ThisBuild / scalaVersion := "2.13.8"
+
 ThisBuild / startYear := Option(2023)
 ThisBuild / scalaJSLinkerConfig ~= { _.withESFeatures(_.withESVersion(org.scalajs.linker.interface.ESVersion.ES5_1)) }
 
@@ -43,7 +45,7 @@ lazy val `aws-types` = project.in(file("aws-types"))
       "-Wvalue-discard",
     ).contains) },
     (Compile / npmDependencies) ++= Seq(
-      "aws-xray-sdk-core" -> "1.2.0",
+      "aws-xray-sdk-core" -> "2",
     ),
   )
 
