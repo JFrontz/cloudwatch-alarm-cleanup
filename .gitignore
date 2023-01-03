@@ -8,8 +8,8 @@ logs/
 node_modules/
 .serverless/
 .bsp/
-.metals/metals.lock.db
 .gitignore
-.metals/metals.mv.db
-project/metals.sbt
 .metals/metals.log
+.metals/metals.mv.db
+.metals/metals.lock.db
+project/metals.sbt
