@@ -1,4 +1,4 @@
-package com.dwolla
+package com.jfrontz
 
 import fs2._
 

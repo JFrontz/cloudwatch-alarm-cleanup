@@ -1,4 +1,4 @@
-package com.dwolla.awssdk
+package com.jfrontz.awssdk
 
 import cats.effect._
 

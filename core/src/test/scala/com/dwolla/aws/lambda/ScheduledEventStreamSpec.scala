@@ -1,8 +1,8 @@
-package com.dwolla.aws.lambda
+package com.jfrontz.aws.lambda
 
 import aws.lambda.ScheduledEvent
-import com.dwolla.aws.lambda.ScheduledEventStream.terminatingEc2InstanceId
-import com.dwolla.testutils.StreamSpec
+import com.jfrontz.aws.lambda.ScheduledEventStream.terminatingEc2InstanceId
+import com.jfrontz.testutils.StreamSpec
 
 import scala.scalajs.js
 import scala.scalajs.js.Dictionary

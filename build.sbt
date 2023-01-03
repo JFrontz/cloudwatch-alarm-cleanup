@@ -1,17 +1,17 @@
-ThisBuild / organization := "com.dwolla"
+ThisBuild / organization := "com.jfrontz"
 ThisBuild / description := "AWS Lambda function that listens for AutoScaling lifecycle events and removes CloudWatch alarms for instances that are terminated"
-ThisBuild / homepage := Option(url("https://github.com/Dwolla/cloudwatch-alert-cleanup"))
+ThisBuild / homepage := Option(url("https://github.com/JFrontz/cloudwatch-alert-cleanup"))
 ThisBuild / licenses += ("MIT", url("http://opensource.org/licenses/MIT"))
 ThisBuild / developers := List(
     Developer(
       "bpholt",
       "Brian Holt",
-      "bholt+github@dwolla.com",
-      url("https://dwolla.com")
+      "bholt+github@jfrontz.com",
+      url("https://jfrontz.com")
     ),
   )
 ThisBuild / scalaVersion := "2.13.8"
-ThisBuild / startYear := Option(2018)
+ThisBuild / startYear := Option(2023)
 ThisBuild / scalaJSLinkerConfig ~= { _.withESFeatures(_.withESVersion(org.scalajs.linker.interface.ESVersion.ES5_1)) }
 
 ThisBuild / githubWorkflowJavaVersions := Seq(JavaSpec.temurin("8"), JavaSpec.temurin("11"))
@@ -56,13 +56,13 @@ lazy val `cloudwatch-alarm-cleanup` = project.in(file("core"))
       Seq(
         "co.fs2" %%% "fs2-core" % "2.5.11",
         "com.chuusai" %%% "shapeless" % V.shapeless,
-        "com.dwolla" %%% "fs2-aws-lambda-io-app" % "2.0.0-M16",
+        "com.jfrontz" %%% "fs2-aws-lambda-io-app" % "2.0.0-M16",
         "org.scala-js" %%% "scala-js-macrotask-executor" % "1.0.0",
         "org.scala-js" %%% "scalajs-java-securerandom" % "1.0.0",
       ) ++
       Seq(
         "org.scalatest" %%% "scalatest" % "3.2.12",
-        "com.dwolla" %%% "testutils-scalatest-fs2" % "2.0.0-M6",
+        "com.jfrontz" %%% "testutils-scalatest-fs2" % "2.0.0-M6",
       ).map(_ % Test)
     },
     (Compile / npmDevDependencies) ++= Seq(

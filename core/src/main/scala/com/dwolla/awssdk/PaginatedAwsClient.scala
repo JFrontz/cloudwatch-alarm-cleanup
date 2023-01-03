@@ -1,9 +1,9 @@
-package com.dwolla.awssdk
+package com.jfrontz.awssdk
 
 import cats.effect.Effect
 import cats.implicits._
-import com.dwolla.awssdk.ExecuteVia._
-import com.dwolla.fs2utils.Pagination
+import com.jfrontz.awssdk.ExecuteVia._
+import com.jfrontz.fs2utils.Pagination
 import fs2._
 
 object PaginatedAwsClient {

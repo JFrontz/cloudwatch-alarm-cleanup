@@ -1,4 +1,4 @@
-package com.dwolla.aws
+package com.jfrontz.aws
 
 import shapeless.tag.@@
 

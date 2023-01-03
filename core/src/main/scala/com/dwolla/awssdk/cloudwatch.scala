@@ -1,9 +1,9 @@
-package com.dwolla.awssdk
+package com.jfrontz.awssdk
 
-import com.dwolla.awssdk.ExecuteVia.{Callback => CommonCallback}
+import com.jfrontz.awssdk.ExecuteVia.{Callback => CommonCallback}
 import aws.Callback
 import aws.cloudwatch.{DescribeAlarmsInput, DescribeAlarmsOutput, PaginationTokenTag}
-import com.dwolla.awssdk.PaginatedAwsClient.AwsPaging
+import com.jfrontz.awssdk.PaginatedAwsClient.AwsPaging
 import shapeless.tag
 
 import scala.scalajs.js.JavaScriptException

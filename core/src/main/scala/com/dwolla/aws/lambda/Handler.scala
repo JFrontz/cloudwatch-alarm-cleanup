@@ -1,13 +1,13 @@
-package com.dwolla.aws.lambda
+package com.jfrontz.aws.lambda
 
 import aws.cloudwatch._
 import aws.lambda._
 import cats.effect._
-import com.dwolla.aws.cloudwatch.AlarmsForInstance.byInstanceId
-import com.dwolla.aws.cloudwatch._
-import com.dwolla.aws.ec2.InstanceId
-import com.dwolla.aws.lambda.ScheduledEventStream._
-import com.dwolla.lambda.IOLambda
+import com.jfrontz.aws.cloudwatch.AlarmsForInstance.byInstanceId
+import com.jfrontz.aws.cloudwatch._
+import com.jfrontz.aws.ec2.InstanceId
+import com.jfrontz.aws.lambda.ScheduledEventStream._
+import com.jfrontz.lambda.IOLambda
 import fs2._
 import jsdep.awsLambda.handlerMod
 

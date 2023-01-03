@@ -1,7 +1,7 @@
-package com.dwolla.aws.cloudwatch
+package com.jfrontz.aws.cloudwatch
 
 import aws.cloudwatch.Dimension
-import com.dwolla.aws.cloudwatch.TestHelpers._
+import com.jfrontz.aws.cloudwatch.TestHelpers._
 import org.scalatest.matchers.should.Matchers
 import org.scalatest.flatspec.AnyFlatSpecLike
 

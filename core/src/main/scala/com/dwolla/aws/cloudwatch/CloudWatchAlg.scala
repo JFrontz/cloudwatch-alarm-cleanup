@@ -1,14 +1,14 @@
-package com.dwolla.aws.cloudwatch
+package com.jfrontz.aws.cloudwatch
 
 import aws.AWS
 import aws.AWS.CloudWatch
 import aws.AWSXRay.captureAWSClient
 import aws.cloudwatch._
-import com.dwolla.awssdk.cloudwatch._
+import com.jfrontz.awssdk.cloudwatch._
 import cats._
 import cats.effect._
-import com.dwolla.awssdk.ExecuteVia._
-import com.dwolla.awssdk.PaginatedAwsClient._
+import com.jfrontz.awssdk.ExecuteVia._
+import com.jfrontz.awssdk.PaginatedAwsClient._
 import fs2._
 
 trait CloudWatchAlg[F[_]] {

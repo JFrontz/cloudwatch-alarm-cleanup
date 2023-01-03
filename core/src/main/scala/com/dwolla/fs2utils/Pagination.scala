@@ -1,4 +1,4 @@
-package com.dwolla.fs2utils
+package com.jfrontz.fs2utils
 
 import cats.Applicative
 import cats.data.Kleisli

@@ -1,9 +1,9 @@
-package com.dwolla.aws.lambda
+package com.jfrontz.aws.lambda
 
 import aws.lambda.ScheduledEvent
-import com.dwolla.aws.ec2._
+import com.jfrontz.aws.ec2._
 import fs2._
-import com.dwolla.fs2utils._
+import com.jfrontz.fs2utils._
 import shapeless.tag
 
 object ScheduledEventStream {

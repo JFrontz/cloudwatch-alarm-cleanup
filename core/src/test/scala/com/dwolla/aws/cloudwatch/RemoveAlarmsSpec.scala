@@ -1,13 +1,13 @@
-package com.dwolla.aws.cloudwatch
+package com.jfrontz.aws.cloudwatch
 
 import aws.AWS.CloudWatch
 import aws._
 import aws.cloudwatch._
 import cats.effect._
-import com.dwolla.aws.cloudwatch.CloudWatchAlg.CloudWatchAlgImpl
-import com.dwolla.aws.cloudwatch.RemoveAlarmsSpec._
-import com.dwolla.aws.cloudwatch.TestHelpers._
-import com.dwolla.testutils.StreamSpec
+import com.jfrontz.aws.cloudwatch.CloudWatchAlg.CloudWatchAlgImpl
+import com.jfrontz.aws.cloudwatch.RemoveAlarmsSpec._
+import com.jfrontz.aws.cloudwatch.TestHelpers._
+import com.jfrontz.testutils.StreamSpec
 import fs2._
 import org.scalatest.matchers.should.Matchers
 

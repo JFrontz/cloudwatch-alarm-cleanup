@@ -1,4 +1,4 @@
-package com.dwolla.fs2utils
+package com.jfrontz.fs2utils
 
 import org.scalatest.matchers.should.Matchers
 import org.scalatest.flatspec.AnyFlatSpecLike

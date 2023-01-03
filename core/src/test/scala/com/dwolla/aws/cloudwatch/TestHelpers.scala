@@ -1,7 +1,7 @@
-package com.dwolla.aws.cloudwatch
+package com.jfrontz.aws.cloudwatch
 
 import aws.cloudwatch.{AlarmName, AlarmNameTag, Dimension, MetricAlarm}
-import com.dwolla.aws.ec2._
+import com.jfrontz.aws.ec2._
 import shapeless.tag
 
 import scala.scalajs.js
